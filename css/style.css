@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+body {
+  background-color: #0b6043;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  pointer-events: none;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.btn-mobile-nav {
+  pointer-events: auto;
+  display: block;
+  z-index: 9999;
+}
+
+.main-nav {
+  background-color: #fa86c5;
+  backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  transform: translateY(-100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in;
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.nav-open .main-nav {
+  transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.nav-open .icon-mobile-nav[name="close-outline"] {
+  display: block;
+}
+
+.nav-open .icon-mobile-nav[name="menu-outline"] {
+  display: none;
+}
+
+.main-nav-list {
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.hero-image {
+  width: 100%; /* Full width of the viewport */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 50vh; /* Limit the height to avoid taking the full viewport */
+  object-fit: cover;
+}
+
+.hero-image-container {
+  width: 100%;
+}
+
+.box {
+  display: grid;
+  & > * {
+    grid-column: 1;
+    grid-row: 1;
+    align-items: center;
+  }
+
+  align-items: center;
+  justify-items: center;
+  background-color: #0b6043;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+
+  padding: 1rem;
+
+  background-color: #ec839e;
+  color: black;
+}
+
+#welcome {
+  color: #ffff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.cta-btn {
+  padding: 0.6rem;
+  font-size: 0.6rem;
+  margin-top: 1rem;
+  background-color: #fe470a;
+  text-transform: uppercase;
+  border-radius: 4px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+  margin-top: 0.4rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pic-container {
+  width: 50%;
+}
+
+.green-house-img {
+  display: block;
+  width: 100%;
+}
+
+.pic-container {
+}
