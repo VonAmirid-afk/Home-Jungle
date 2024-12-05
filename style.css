@@ -9,6 +9,7 @@ html {
 }
 body {
   background-color: #0b6043;
+  font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -96,6 +97,7 @@ body {
     grid-row: 1;
     align-items: center;
   }
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
   align-items: center;
   justify-items: center;
@@ -112,7 +114,6 @@ body {
   padding: 1rem;
 
   background-color: #ec839e;
-  color: black;
 }
 
 #welcome {
@@ -147,7 +148,22 @@ body {
 .green-house-img {
   display: block;
   width: 100%;
+  border-radius: 5px;
 }
 
-.pic-container {
+.about-us-text {
+  text-align: center;
+  color: #ffdaed;
+  margin: 1rem 1rem 1rem 1rem;
+
+  text-transform: uppercase;
+}
+.tertiary-heading {
+  color: #fe6bb7;
+  font-size: 1.5rem;
+  text-transform: none;
+  text-align: center;
+}
+
+.plant-care-photo {
 }
