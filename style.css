@@ -112,8 +112,11 @@ body {
   width: 50%;
 
   padding: 1rem;
+}
 
-  background-color: #ec839e;
+.logo {
+  height: 10rem;
+  width: 10rem;
 }
 
 #welcome {
@@ -142,31 +145,27 @@ body {
 }
 
 .pic-container {
-  width: 50%;
+  width: 100%;
 }
 
 .green-house-img {
-  display: block;
   width: 100%;
-  border-radius: 5px;
 }
 
 .about-us-text {
   color: #ffdaed;
-  margin: 1rem 1rem 1rem 1rem;
+  margin: 1rem 2.5rem 0 2.5rem;
   text-align: justify;
   text-transform: uppercase;
 }
 
 .about-us-text p {
   font-size: 0.8rem;
-
-  margin: 1rem 2rem;
 }
 .tertiary-heading {
   font-family: "Dancing Script", cursive;
-  color: #fe6bb7;
+  color: #ffb0c9;
   font-size: 2.5rem;
-  margin: 1rem 2rem;
+
   text-transform: none;
 }
