@@ -9,7 +9,7 @@ html {
 }
 body {
   background-color: #0b6043;
-  font-family: "Roboto", sans-serif;
+  font-family: "Oswald", serif;
 }
 
 .header {
@@ -152,18 +152,21 @@ body {
 }
 
 .about-us-text {
-  text-align: center;
   color: #ffdaed;
   margin: 1rem 1rem 1rem 1rem;
-
+  text-align: justify;
   text-transform: uppercase;
 }
-.tertiary-heading {
-  color: #fe6bb7;
-  font-size: 1.5rem;
-  text-transform: none;
-  text-align: center;
-}
 
-.plant-care-photo {
+.about-us-text p {
+  font-size: 0.8rem;
+
+  margin: 1rem 2rem;
+}
+.tertiary-heading {
+  font-family: "Dancing Script", cursive;
+  color: #fe6bb7;
+  font-size: 2.5rem;
+  margin: 1rem 2rem;
+  text-transform: none;
 }
