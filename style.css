@@ -17,6 +17,15 @@ body {
   justify-content: space-between;
   width: 100%;
   pointer-events: none;
+  align-items: center;
+}
+
+.home-page-link {
+  font-size: 1.3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #ffdaed;
 }
 
 .btn-mobile-nav {
