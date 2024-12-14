@@ -197,6 +197,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  overflow: hidden;
 }
 
 .flower-image {
@@ -215,6 +216,14 @@ body {
   text-transform: uppercase;
   text-align: justify;
   margin-bottom: 5rem;
+}
+
+.flower-container img {
+  transition: all 0.4s;
+}
+
+.flower-container img:hover {
+  transform: scale(1.1);
 }
 
 .meet-our-flowers-container {
