@@ -8,7 +8,7 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-color: #0b6043;
+  background-color: rgb(11, 96, 67);
   font-family: "Oswald", serif;
 }
 
@@ -24,7 +24,7 @@ body {
   font-size: 1.3rem;
   text-decoration: none;
   text-transform: uppercase;
-  margin-right: 0.4rem;
+  margin-right: 0.9rem;
   color: #ffff;
   cursor: pointer;
 }
@@ -43,6 +43,7 @@ body {
 
 .icon-mobile-nav[name="close-outline"] {
   display: none;
+  color: #ffff;
 }
 
 .btn-mobile-nav {
@@ -74,6 +75,11 @@ body {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
+}
+
+.icon-mobile-nav[name="close-outline"],
+.icon-mobile-nav[name="menu-outline"] {
+  color: #ffff;
 }
 
 .nav-open .icon-mobile-nav[name="close-outline"] {
@@ -176,6 +182,64 @@ body {
   font-family: "Dancing Script", cursive;
   color: #ffb0c9;
   font-size: 2.5rem;
-
   text-transform: none;
+}
+
+.flowers {
+  padding: 0 5.2rem;
+  background-color: #f7d8df;
+  color: #0b6043;
+}
+
+.flower-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.flower-image {
+  width: 100%;
+}
+
+.flower-content h2 {
+  font-family: "Sacramento", cursive;
+  text-transform: none;
+  font-size: 3rem;
+}
+
+.flower-content {
+  height: auto;
+
+  text-transform: uppercase;
+  text-align: justify;
+  margin-bottom: 5rem;
+}
+
+.meet-our-flowers-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 1rem;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.meet-our-flowers {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  display: block;
+  text-align: center;
+  position: absolute;
+  transform: translate(50%, -73%);
+}
+
+.span-flowers {
+  text-transform: none;
+  font-family: "Sacramento", cursive;
+  font-style: normal;
+  font-size: 7rem;
+  text-align: center;
 }
