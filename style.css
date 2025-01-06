@@ -252,3 +252,44 @@ body {
   font-size: 7rem;
   text-align: center;
 }
+
+.choose-us {
+  padding: 0 4.2rem;
+}
+
+.choose-us-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-us-container p {
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.choose-us-container h2 {
+  color: #ffb0c9;
+  font-family: "Sacramento", cursive;
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  align-self: flex-start;
+}
+
+.choose-us-container span {
+  vertical-align: bottom;
+  margin-right: 0.5rem;
+  font-size: 1.9rem;
+  color: #ffff;
+}
+
+.choose-us-container h3 {
+  text-transform: uppercase;
+}
+
+.choose-us-container {
+  color: #ffb0c9;
+}
