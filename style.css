@@ -200,6 +200,11 @@ body {
   overflow: hidden;
 }
 
+.flower-card {
+  padding: 10px;
+  height: fit-content;
+}
+
 .flower-image {
   width: 100%;
 }
@@ -267,8 +272,10 @@ body {
 .choose-us-container p {
   color: #ffff;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.5;
 }
 
 .choose-us-container h2 {
@@ -292,4 +299,22 @@ body {
 
 .choose-us-container {
   color: #ffb0c9;
+}
+
+.how-it-works-section {
+  padding: 0 4.2rem;
+  background-color: #f7d8df;
+}
+
+.how-it-works-section h2 {
+  color: #0b6043;
+}
+
+.how-it-works-p {
+  color: #0b6043;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-family: "Oswald", sans-serif;
+  line-height: 1.5;
 }
